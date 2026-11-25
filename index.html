@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ScreenSync — personal screenshot uploader</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<h1>ScreenSync</h1>
+<p class="sub">A small personal Android app that uploads new screenshots to the user's own Google Drive.</p>
+
+<h2>What it does</h2>
+<ul>
+<li>Watches one folder on the phone chosen by the user (by default <code>DCIM/Screenshots</code>).</li>
+<li>When a new file appears there, uploads it, under its original file name, to a single folder in the user's own Google Drive.</li>
+<li>One-way only. It never deletes or changes files on the phone or in Google Drive.</li>
+<li>No ads, no analytics, no tracking, no servers of its own.</li>
+</ul>
+
+<h2>Google account access</h2>
+<p>The app asks for one Google permission, <code>https://www.googleapis.com/auth/drive.file</code>. With it, the app can only see and change the files and folders it created itself. It cannot read anything else in the user's Drive.</p>
+
+<p><a href="privacy.html">Privacy policy</a></p>
+
+<h2>한국어 요약</h2>
+<p>폰의 스크린샷 폴더에 새 파일이 생기면, 사용자 본인의 구글 드라이브 폴더 하나로 원래 파일명 그대로 올리는 개인용 앱입니다. 지우기 기능이 없고 광고·분석·추적도 없습니다. 구글 권한은 앱이 직접 만든 파일만 다룰 수 있는 <code>drive.file</code> 하나만 씁니다.</p>
+
+<footer>Personal, non-commercial project. Questions: <a href="https://github.com/JinukMoon/DriveSync/issues">GitHub issues</a>.</footer>
+</body></html>
